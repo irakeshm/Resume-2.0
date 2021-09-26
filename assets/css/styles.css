@@ -466,9 +466,13 @@ margin-bottom: var(--mb-1);
 .experience__line{
   display: block;
   width: 2px;
-  height: 110%;
+  height: 105%;
   background-color: var(--text-color-light);
   transform: translate(7px,0);
+}
+
+.certificate__content{
+  margin-bottom:var(--mb-1)
 }
 
 /*========== SKILLS AND LANGUAGES ==========*/
@@ -604,11 +608,15 @@ font-size: var(--h3-font-size);
 
 .section-title,
 .profile__description{
-  text-align: initial;
+  text-align: justify;
 }
 
 .home__container{
   gap: 1.5rem;
+}
+
+.experience__description{
+  text-align: justify;
 }
 
 .generate-pdf{
