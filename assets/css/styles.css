@@ -418,7 +418,7 @@ margin-bottom: var(--mb-1);
 
 /*========== PROFILE ==========*/
 .profile__description{
-  text-align: center;
+  text-align: justify;
 }
 
 /*========== EDUCATION AND EXPERIENCE ==========*/
